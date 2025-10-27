@@ -1,0 +1,57 @@
+.hero{
+    /* border: 2px solid aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero>img{
+    /* border: 2px solid aqua; */
+    margin-top: 150px;
+}
+.hero>h1{
+    /* border: 2px solid aqua; */
+    text-align: center;
+    width: 70%;
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+.hero>h1>span{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero>p{
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 4.5vh;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    border: 2px solid black;
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+    cursor: pointer;
+}
+.hero-resume{
+    border: 2px solid white;
+    padding: 25px 45px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 2px solid white;
+}
+.hero-resume:hover{
+    border-color: #B415FF;
+}

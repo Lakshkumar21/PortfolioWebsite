@@ -1,0 +1,35 @@
+.navbar{
+    /* border: 2px solid aqua; */
+    height: 7vh;
+    /* width: 5vw; */
+    display: flex;
+    align-items: centre;
+    justify-content: space-around;
+    margin: 2vh 10vw;
+}
+#img-logo{
+    /* border: 2px solid aqua; */
+    height: 95%;
+    width: 10%;
+}
+.nav-menu{
+    /* border: 2px solid aquamarine; */
+    width: 30vw;
+    display: flex;
+    align-items: centre;
+    list-style: none;
+    gap: 2vw;
+    font-size: 1.1rem;
+    margin: auto;
+}
+.nav-connect{
+    padding: 1.9vh 1vw;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-connect:hover{
+    transform: scale(1.05);;
+}
